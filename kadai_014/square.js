@@ -1,5 +1,5 @@
-const number = (number1, number2) => {
-  console.log(number1 * number2);
+const square = (num) => {
+  return num ** 2;
 }
 
-number(10, 10);
+console.log(square(10));
